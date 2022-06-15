@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Large Collection of HTML CSS and JS Entities for your Project.">
     <meta name="keywords" content="html, css, js, Javascript, pseudo entities, entities, pseudo element, pseudo entities element">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Character Entities Collections for HTML, CSS and Javascript</title>
-
+    <!-- Project Styling Start -->
     <style type="text/css">
          :root {
-            --color-text: #444;
+            --color-text: #000;
             --color-text-light: #eee;
             --color-bg-1: #ffffff;
             --color-bg-2: #f6f8fa;
@@ -22,8 +24,8 @@
             --color-ac-tx: #0c4047;
             --table-border-color: #ccc;
             --table-thead-color: var(--color-text-light);
-            --table-thead-color-bg: #444;
-            --table-tbody-th-color: #555;
+            --table-thead-color-bg: rgb(43, 43, 43);
+            --table-tbody-th-color: rgb(66, 65, 65);
             --table-tbody-th-color-bg: #efefef;
             --table-tbody-th-color-border: var(--table-thead-color-bg);
         }
@@ -87,6 +89,10 @@
             background: var(--color-bg-2);
         }
         
+        tr:hover {
+            background: #f2f2f2;
+        }
+        
         table caption {
             font-weight: bold;
             margin-bottom: .5rem;
@@ -134,7 +140,7 @@
     </style>
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.1063.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+<body>
 
     <table cellspacing="0">
         <caption style="text-align: center;">Character Entities Collections for HTML, CSS and Javascript</caption>
@@ -149,6 +155,21 @@
                 <th>JS (Octal)</th>
             </tr>
         </thead>
+        <tbody id="currency">
+            <tr>
+                <th colspan="7">Currency</th>
+            </tr>
+            <tr>
+                <td>&amp;dollar;</td>
+                <td>$</td>
+                <td>&amp;#36;</td>
+                <td>dollar sign</td>
+                <td>u+0024 ISOnum</td>
+                <td>\0024</td>
+                <td onclick="alert(&quot;\44&quot;)"><a href="javascript: void(0);">\44</a></td>
+            </tr>
+
+        </tbody>
         <tbody id="special-characters">
             <tr>
                 <th colspan="7">Special Characters</th>
@@ -170,15 +191,6 @@
                 <td>u+0023 ISOnum</td>
                 <td>\0023</td>
                 <td onclick="alert(&quot;\43&quot;)"><a href="javascript: void(0);">\43</a></td>
-            </tr>
-            <tr>
-                <td>&amp;dollar;</td>
-                <td>$</td>
-                <td>&amp;#36;</td>
-                <td>dollar sign</td>
-                <td>u+0024 ISOnum</td>
-                <td>\0024</td>
-                <td onclick="alert(&quot;\44&quot;)"><a href="javascript: void(0);">\44</a></td>
             </tr>
             <tr>
                 <td>&amp;percnt;</td>
@@ -2753,7 +2765,7 @@
         </tbody>
     </table>
 
-    <p><small><a href="https://github.com/oinam/entities/">Open Source</a> by <a href="https://oinam.com/">Oinam</a></small></p>
+    <p style="text-align: center; font-size: 18px;"><small><a href="https://htmlcssentities.netlify.app/" style="text-decoration: none;">Open Source</a> by <a href="https://mahedihassan.netlify.app/" style="text-decoration: none;">Mahedi Hassan</a></small></p>
 
 
 
